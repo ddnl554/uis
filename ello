@@ -326,7 +326,7 @@ function library:addTab(name)
                             next = false
                             library.flags[args.flag] = key
                             button.Text = keyNames[key] or key.Name
-                            button.TextColor3 = Color3.fromRGB(155, 155, 155)
+                            button.TextColor3 = Color3.fromRGB(250, 250, 250)
                         end
                     end
                     if not next and key == library.flags[args.flag] and args.callback then
